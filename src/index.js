@@ -13,7 +13,7 @@ class HateSpeechAI {
             contents: sr.prompt + text,
         });
         const result = response.text.trim()
-        if (result === "null") {
+        if (result === "null" || result === "\"null\"") {
             return null;
         } else {
             return result;
