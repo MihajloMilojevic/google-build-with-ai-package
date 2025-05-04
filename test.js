@@ -15,11 +15,10 @@ rl.question("Enter text to check for hate speech: ", (inputText) => {
     }
     ai.checkHateSpeech(inputText).then((response) => {
         console.log(response);
-        try {
-            const jsonResponse = JSON.parse(response);
-            console.log("Parsed JSON response:", jsonResponse);
-        } catch (error) {
-            console.error("Error parsing JSON response:", error.message);
+        if (!response) {
+            console.log("No hate speech detected.");
+        } else {
+            console.log("Hate speech detected: " + response);
         }
         rl.close();
     }).catch((error) => {
