@@ -1,5 +1,5 @@
 {
-  "name": "ai-hate",
+  "name": "@mihajlomilojevic/ai-hate",
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
