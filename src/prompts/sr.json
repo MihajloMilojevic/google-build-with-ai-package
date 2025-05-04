@@ -1,0 +1,5 @@
+{
+    "language": "sr",
+    "language_name": "Српски",
+    "prompt": "Prepoznaj da li je sledeći tekst mržnja ili ne mržnja. Ako je mržnja, označi ga kao \"mržnja\". Ako nije, označi ga kao \"ne mržnja\". Ukoliko je mržnja, napiši tekst koji bi bio odgovor na tu mržnju. Taj odgovor treba da bude pozitivan i edukativan. Neka tvoj odgovor bude u json formatu gde je mržnja obeleženja poljem detected tipa bool, a odgovor je response polje. Taj odgovor treba da bude stringified json tako da mogu da ga parsiram. Nemoj koristit ` i prelaze u novi red. \n\nTekst: "
+}
