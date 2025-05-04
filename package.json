@@ -5,10 +5,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ai", "hate speech", "hate speech detector", "hate speech analysis", "hate speech detection", "hate speech response"],
+  "keywords": [
+    "ai",
+    "hate speech",
+    "hate speech detector",
+    "hate speech analysis",
+    "hate speech detection",
+    "hate speech response"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/MihajloMilojevic/google-build-with-ai-package"
+    "url": "git+https://github.com/MihajloMilojevic/google-build-with-ai-package.git"
   },
   "author": "Mihajlo Milojević",
   "license": "MIT",
